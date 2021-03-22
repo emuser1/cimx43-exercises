@@ -2,10 +2,29 @@
 
 html {
   font-family: 'Caveat', cursive;
+  background-color: #e5d5c7;
+}
+
+h1 {
+  width: 700px;
+  margin: 0 auto;
+  padding: 30px;
 }
 
 .poemGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
+}
+
+.poem {
+  color:black;
+  border-radius:8px;
+  font-size:25px;
+  padding:5px;
+  margin:5px;
+  background:#b49286;
+  border: solid thick black;
+  width:80%;
+  min-height: 250px;
 }

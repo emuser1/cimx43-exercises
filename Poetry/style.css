@@ -1,5 +1,11 @@
-@import url(//fonts.googleapis.com/css?family=Hind:300,500);
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 html {
-  font-family: Hind;
+  font-family: 'Caveat', cursive;
+}
+
+.poemGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
 }

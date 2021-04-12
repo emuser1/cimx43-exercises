@@ -7,7 +7,7 @@
   }
 
   /* inspo: https://codepen.io/alphardex/pen/dyPorwJ */
-.snowc {
+.snow {
     position: absolute;
     width: 10px;
     height: 10px;
@@ -128,4 +128,184 @@
   left: 90%;
   -webkit-animation-delay: 3s, 1.5s;
   animation-delay: 3s, 1.5s;
+}
+.snow:nth-child(1) {
+    opacity: 0.2227;
+    right: 1%;
+    -webkit-animation-delay: -1s, -9s linear infinite;
+    animation-delay: -1s, -9s;
+}
+.snow:nth-child(2) {
+    opacity: 0.0537;
+    right: 5%;
+    -webkit-animation-delay: -2s, -5s linear infinite;
+    animation-delay: -2s, -5s;
+}
+.snow:nth-child(3) {
+    opacity: 0.3141;
+    right: 10%;
+    -webkit-animation-delay: -3s, -20s linear infinite;
+    animation-delay: -3s, -20s;
+}
+.snow:nth-child(4) {
+    opacity: 0.298;
+    right: 15%;
+    -webkit-animation-delay: -4s, -15s linear infinite;
+    animation-delay: -4s, -15s;
+}
+.snow:nth-child(5) {
+    opacity: 0.4854;
+    right: 20%;
+    -webkit-animation-delay: -5s, -29s linear infinite;
+    animation-delay: -5s, -29s;
+}
+.snow:nth-child(6) {
+    opacity: 0.7136;
+    right: 25%;
+    -webkit-animation-delay: -6s, -10s linear infinite;
+    animation-delay: -6s, -10s;
+}
+.snow:nth-child(7) {
+    opacity: 0.0741;
+    right: 30%;
+    -webkit-animation-delay: -7s, -16s linear infinite;
+    animation-delay: -7s, -16s;
+}
+.snow:nth-child(8) {
+    opacity: 0.9681;
+    right: 35%;
+    -webkit-animation-delay: -8s, -3s linear infinite;
+    animation-delay: -8s, -3s;
+}
+.snow:nth-child(9) {
+    opacity: 0.7778;
+    right: 40%;
+    -webkit-animation-delay: -9s, -9s linear infinite;
+    animation-delay: -9s, -9s;
+}
+.snow:nth-child(10) {
+    opacity: 0.9391;
+    right: 45%;
+    -webkit-animation-delay: -10s -4s linear infinite;
+    animation-delay: -10s, -4s;
+}
+.snow:nth-child(11) {
+    opacity: 0.0385;
+    right: 50%;
+    -webkit-animation-delay: -11s, -24s linear infinite;
+    animation-delay: -11s, -24s;
+}
+.snow:nth-child(12) {
+    opacity: 0.7588;
+    right: 55%;
+    -webkit-animation-delay: -12s, -9s linear infinite;
+    animation-delay: -12s, -9s;
+}
+.snow:nth-child(13) {
+    opacity: 0.5212;
+    right: 60%;
+    -webkit-animation-delay: -13s, -22s linear infinite;
+    animation-delay: -13s, -22s;
+}
+.snow:nth-child(14) {
+    opacity: 0.4058;
+    right: 65%;
+    -webkit-animation-delay: -14s, -29s linear infinite;
+    animation-delay: -14s, -29s;
+}
+.snow:nth-child(15) {
+    opacity: 0.9478;
+    right: 70%;
+    -webkit-animation-delay: -15s, -17s linear infinite;
+    animation-delay: -15s, -17s;
+}
+.snow:nth-child(16) {
+    opacity: 0.7573;
+    right: 75%;
+    -webkit-animation-delay: -16s, -18s linear infinite;
+    animation-delay: -16s, -18s;
+}
+.snow:nth-child(17) {
+    opacity: 0.9609;
+    right: 80%;
+    -webkit-animation-delay: -17s, -19s linear infinite;
+    animation-delay: -17s, 19s;
+}
+.snow:nth-child(18) {
+    opacity: 0.5011;
+    right: 85%;
+    -webkit-animation-delay: -18s, -11s linear infinite;
+    animation-delay: -18s, -11s;
+}
+.snow:nth-child(19) {
+    opacity: 0.9395;
+    right: 90%;
+    -webkit-animation-delay: -19s, -4s linear infinite;
+    animation-delay: -19s, -4s;
+}
+.snow:nth-child(20) {
+    opacity: 0.689;
+    right: 95%;
+    -webkit-animation-delay: -20s, -12s linear infinite;
+    animation-delay: -20s, -12s;
+}
+.snow:nth-child(21) {
+    opacity: 0.6483;
+    right: 100%;
+    -webkit-animation-delay: -21s, -2s linear infinite;
+    animation-delay: -21s, -2s;
+}
+.snow:nth-child(22) {
+    opacity: 0.8267;
+    left: 5%;
+    -webkit-animation-delay: -22s, -2s linear infinite;
+    animation-delay: -22s, -2s;
+}
+.snow:nth-child(23) {
+    opacity: 0.2278;
+    left: 95%;
+    -webkit-animation-delay: -23s, -4s linear infinite;
+    animation-delay: -23s, -4s;
+}
+.snow:nth-child(24) {
+    opacity: 0.3929;
+    left: 15%;
+    -webkit-animation-delay: -24s, -27s linear infinite;
+    animation-delay: -24s, -27s;
+}
+.snow:nth-child(25) {
+    opacity: 0.4293;
+    left: 85%;
+    -webkit-animation-delay: -25s, -13s linear infinite;
+    animation-delay: -25s, -13s;
+}
+.snow:nth-child(26) {
+    opacity: 0.5046;
+    left: 25%;
+    -webkit-animation-delay: -26s, -11s linear infinite;
+    animation-delay: -26s, -11s;
+}
+.snow:nth-child(27) {
+    opacity: 0.227;
+    left: 75%;
+    -webkit-animation-delay: -27s, -1s linear infinite;
+    animation-delay: -27s, -1s;
+}
+.snow:nth-child(28) {
+    opacity: 0.3741;
+    left: 35%;
+    -webkit-animation-delay: -28s, -14s linear infinite;
+    animation-delay: -28s, -14s;
+}
+.snow:nth-child(29) {
+    opacity: 0.5855;
+    left: 65%;
+    -webkit-animation-delay: -29s, -25s linear infinite;
+    animation-delay: -29s, -25s;
+}
+.snow:nth-child(30) {
+    opacity: 0.5864;
+    left: 45%;
+    -webkit-animation-delay: -30s, -3s linear infinite;
+    animation-delay: -30s, -3s;
 }

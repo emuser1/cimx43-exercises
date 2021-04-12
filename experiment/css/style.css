@@ -71,6 +71,11 @@ section {
 
 }
 
+.universe{
+  background-image: url(/experiment/images/8e46150f790fbefe438d9c2767c32ad1.gif);
+  color:#F8EBFF;
+}
+
 @keyframes sunriseSky {
   0% {
     background: radial-gradient(ellipse at bottom,#fca95b 0%,#dca7bf 35%,#5d54c7 85%, #473eac 100%);

@@ -54,6 +54,22 @@ section {
   animation-delay: 5s;
 }
 
+.stars{
+  background-color: #F8EBFF;
+  background-image: url(https://i.postimg.cc/FsR9W5yQ/8b3071feeff83f1e4a63ed231562ff0c.gif);
+}
+
+.sparkle{
+  color: #035ee2;
+  font-size: 60px;
+  font-weight: 600;
+	background: -webkit-linear-gradient(transparent, transparent), url(https://i.postimg.cc/BvZ4RrD3/tenor.gif) repeat;
+	background: -o-linear-gradient(transparent, transparent) !important;
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent !important;
+
+}
+
 @keyframes sunriseSky {
   0% {
     background: radial-gradient(ellipse at bottom,#fca95b 0%,#dca7bf 35%,#5d54c7 85%, #473eac 100%);

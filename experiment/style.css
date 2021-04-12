@@ -71,7 +71,7 @@ section {
   height: 30px;
   left: calc(var(--x) * 1%);
   position: absolute;
-  top: 775px;
+  top: 105%;
 }
 
 .rain__drop path{

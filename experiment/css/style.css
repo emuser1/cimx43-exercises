@@ -61,6 +61,7 @@ section {
   background-color: #6c78a9;
 }
 
+/* credit for rain stuff: https://codepen.io/jh3y/pen/WyNdMG */
 .rain__drop{
   animation-delay: calc(var(--d) * 1s);
   animation-duration: calc(var(--a) * 1s);
@@ -156,6 +157,7 @@ section {
   }
 }
 
+/* https://codepen.io/jh3y/pen/WyNdMG */
 @-moz-keyframes drop {
     90% {
       opacity: 1;

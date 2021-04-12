@@ -15,7 +15,69 @@ section {
     align-items: center;
 }
 
+.sunrise{
+  animation: 15s sunriseSky infinite;
+}
+
 .winter{
     background: radial-gradient(ellipse at bottom, #BFD7EA 10%, #726DA8 100%);
     overflow: hidden;
+}
+.container {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 100%);
+}
+
+.sun {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(to top, #fb6753 0%, #fc8b53 50%,#fdd55a 75%,#fee777 100% );
+  background-size: 200% 200%;
+  border-radius: 100%;
+  filter: drop-shadow(0 0 15px #fdd55a);
+  animation: 15s rise infinite;
+}
+
+@keyframes sunriseSky {
+  0% {
+    background: radial-gradient(ellipse at bottom,#fca95b 0%,#dca7bf 35%,#5d54c7 85%, #473eac 100%);
+  }
+  25% {
+    background: radial-gradient(ellipse at bottom,  #fee777 0%,  #fca95b 15%,  #dca7bf 45%,  #5d54c7 100%);
+  }
+  40% {
+    background: radial-gradient(ellipse at bottom, #fee777 0%, #fca95b 25%, #dca7bf 50%, #98b9f2 90%, #6f9ceb 100%);
+  }
+  50% {
+    background: radial-gradient(ellipse at bottom, #fee777 0%, #fca95b 25%, #dca7bf 50%, #98b9f2 90%, #6f9ceb 100%);
+  }
+  55% {
+    background: radial-gradient(ellipse at bottom,  #fee777 10%,  #fca95b 40%,  #98b9f2 80%,  #6f9ceb 100% );
+  }
+  100% {
+    background: radial-gradient(circle at center,  #fee777 10%,  #98b9f2 55%, #6f9ceb 100%  );
+  }
+}
+
+@keyframes rise {
+  0% {
+    top: 250px;
+    background-position: 50% 0%;
+  }
+  25% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 50% 0%;
+  }
+  75% {
+    background-position: 50% 0%;
+  }
+  100% {
+    top: -175px;
+    background-position: 50% 0%;
+  }
 }

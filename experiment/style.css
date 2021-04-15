@@ -103,6 +103,29 @@ section {
   color:#F8EBFF;
 }
 
+.particletext.hearts > .particle {
+  opacity: 0;
+  position: absolute;
+  background-color: rgba(204, 42, 93, 1);
+  animation: hearts 3s ease-in infinite;
+}
+.particletext.hearts > .particle:before, .particletext.hearts > .particle:after {
+  position: absolute;
+  content: '';
+  border-radius: 100px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(204, 42, 93, 1);
+}
+.particletext.hearts > .particle:before {
+  transform: translateX(-50%);
+}
+.particletext.hearts > .particle:after {
+  transform: translateY(-50%);
+}
+
 @keyframes sunriseSky {
   0% {
     background: radial-gradient(ellipse at bottom,#fca95b 0%,#dca7bf 35%,#5d54c7 85%, #473eac 100%);
@@ -193,4 +216,19 @@ section {
       opacity: 0;
       transform: translateY(100vh);
     }
+  }
+
+@keyframes hearts {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0%) rotate(45deg);
+ }
+  20% {
+    opacity: 0.8;
+    transform: translate(0, -20%) rotate(45deg);
+ }
+  100% {
+    opacity: 0;
+    transform: translate(0, -1000%) rotate(45deg);
+ }
 }

@@ -2,7 +2,7 @@
 @import url(./snow.css);
 @import url(./universe.css);
 
-body{
+body, span{
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -101,6 +101,11 @@ section {
 .universe{
   background-image: url(https://i.postimg.cc/WpMsLP8J/8e46150f790fbefe438d9c2767c32ad1.gif);
   color:#F8EBFF;
+}
+
+.ily h1{
+  position: relative;
+  font-size: 50px;
 }
 
 .particletext.hearts > .particle {

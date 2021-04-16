@@ -103,6 +103,17 @@ section {
   color:#F8EBFF;
 }
 
+.partner{
+  background-image: url(https://i.postimg.cc/3wsD8Nzs/223261863-71d1262f0c-o.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.partner h1{
+  position: relative;
+  top: -12px;
+}
+
 .ily{
   background: url(https://i.postimg.cc/tRB5tt6D/hhhh.png);
   background-size: cover;

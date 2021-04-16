@@ -2,9 +2,9 @@
 @import url(./snow.css);
 @import url(./universe.css);
 
-body, span{
+body{
     font-family: "Source Sans Pro", sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     font-size: 20px;
     letter-spacing: 2px;
 }
@@ -111,7 +111,38 @@ section {
 
 .partner h1{
   position: relative;
-  top: -12px;
+  bottom: 111px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: animated-text 3s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+  /*animation-delay: 20s; */
+}
+
+.partner p{
+  position: absolute;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 2px;
+  
+} 
+
+.pdown{
+  top: 20px;
+}
+/* text animation */
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 520px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0, 0, 0, 0.75);}
+  to{border-right-color: transparent;}
 }
 
 .ily{

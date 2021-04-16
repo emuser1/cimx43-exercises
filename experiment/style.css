@@ -103,10 +103,19 @@ section {
   color:#F8EBFF;
 }
 
+.ily{
+  background: url(https://i.postimg.cc/tRB5tt6D/hhhh.png);
+  background-size: cover;
+}
+
 .ily h1{
   position: relative;
-  font-size: 50px;
+  font-size: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -50%);
 }
+
 
 .particletext.hearts > .particle {
   opacity: 0;

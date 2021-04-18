@@ -133,17 +133,6 @@ section {
 }
 /* text animation */
 
-@keyframes animated-text{
-  from{width: 0;}
-  to{width: 520px;}
-}
-
-/* cursor animations */
-
-@keyframes animated-cursor{
-  from{border-right-color: rgba(0, 0, 0, 0.75);}
-  to{border-right-color: transparent;}
-}
 
 .ily{
   background: url(https://i.postimg.cc/tRB5tt6D/hhhh.png);
@@ -287,4 +276,15 @@ section {
     opacity: 0;
     transform: translate(0, -1000%) rotate(45deg);
  }
+}
+ @keyframes animated-text{
+  from{width: 0;}
+  to{width: 520px;}
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0, 0, 0, 0.75);}
+  to{border-right-color: transparent;}
 }

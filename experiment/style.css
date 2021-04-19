@@ -2,6 +2,7 @@
 @import url(./snow.css);
 @import url(./universe.css);
 
+
 body{
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 600;
@@ -17,23 +18,23 @@ section {
 }
 
 .sunrise{
-  animation: 15s sunriseSky infinite;
+  animation: 10s sunriseSky infinite;
   animation-delay: 5s;
   background: radial-gradient(ellipse at bottom,#fca95b 0%,#dca7bf 35%,#5d54c7 85%, #473eac 100%);
 }
 
 .sunrise h1{
-  animation: 20s fadeText infinite;
+  animation: 17s fadeText infinite;
 }
 
 .winter{
     background: radial-gradient(ellipse at bottom, #BFD7EA 10%, #726DA8 100%);
     overflow: hidden;
-    animation-name: snowflakes-fall, snowflakes-shake;
+    /*animation-name: snowflakes-fall, snowflakes-shake;
     animation-duration: 10s, 3s;
     animation-timing-function: linear, ease-in-out;
     animation-iteration-count: infinite, infinite;
-    animation-play-state: running, running;
+    animation-play-state: running, running; */
 }
 .container {
   position: absolute;
@@ -51,7 +52,7 @@ section {
   background-size: 200% 200%;
   border-radius: 100%;
   filter: drop-shadow(0 0 15px #fdd55a);
-  animation: 15s rise infinite;
+  animation: 10s rise infinite;
   animation-delay: 5s;
 }
 
@@ -71,7 +72,7 @@ section {
   height: 30px;
   left: calc(var(--x) * 1%);
   position: absolute;
-  top: 105%;
+  top: -0%;
 }
 
 .rain__drop path{
@@ -80,6 +81,11 @@ section {
     transform: scaleY(calc(var(--s) * 1.5));
   }
   
+.time{
+  background-image: url(https://i.postimg.cc/KzY2vYC2/image0.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .stars{
   background-color: #F8EBFF;
@@ -98,34 +104,44 @@ section {
 
 }
 
+.myself{
+  background-image: url(https://i.postimg.cc/FsCcN9HX/rainbow.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .universe{
   background-image: url(https://i.postimg.cc/WpMsLP8J/8e46150f790fbefe438d9c2767c32ad1.gif);
   color:#F8EBFF;
 }
 
 .partner{
+  background-color: #ffffff;
   background-image: url(https://i.postimg.cc/3wsD8Nzs/223261863-71d1262f0c-o.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 600px;
 }
 
 .partner h1{
   position: relative;
   bottom: 111px;
+  font-size: 20px;
   white-space: nowrap;
   overflow: hidden;
   animation: animated-text 3s steps(29,end) 1s 1 normal both,
              animated-cursor 600ms steps(29,end) infinite;
-  /*animation-delay: 20s; */
+  animation-delay: 15s;
 }
 
 .partner p{
   position: absolute;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 20px;
   letter-spacing: 2px;
-  
+  bottom: 46%;
+  left: 33%;
 } 
 
 .pdown{
@@ -196,15 +212,13 @@ section {
   0% {
     top: 250px;
     background-position: 50% 5%;
-    opacity: 0;
+    opacity: 45%;
   }
   25% {
     background-position: 50% 0%;
-    opacity: 0;
   }
   50% {
     background-position: 50% 0%;
-    opacity: 30%;
   }
   75% {
     background-position: 50% 0%;
@@ -279,7 +293,7 @@ section {
 }
  @keyframes animated-text{
   from{width: 0;}
-  to{width: 520px;}
+  to{width: 33.7%;}
 }
 
 /* cursor animations */

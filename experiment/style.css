@@ -59,7 +59,10 @@ section {
 
 
 .rain{
-  background-color: #6c78a9;
+background: #00416A; 
+background: -webkit-linear-gradient(to bottom, #E4E5E6, #00416A); 
+background: linear-gradient(to bottom, #E4E5E6, #00416A);
+
 }
 
 /* credit for rain stuff: https://codepen.io/jh3y/pen/WyNdMG */
@@ -131,7 +134,7 @@ section {
   overflow: hidden;
   animation: animated-text 3s steps(29,end) 1s 1 normal both,
              animated-cursor 600ms steps(29,end) infinite;
-  animation-delay: 15s;
+  animation-delay: 20s;
 }
 
 .partner p{
@@ -141,7 +144,7 @@ section {
   font-size: 20px;
   letter-spacing: 2px;
   bottom: 46%;
-  left: 33%;
+  left: 40%;
 } 
 
 .pdown{
@@ -293,7 +296,7 @@ section {
 }
  @keyframes animated-text{
   from{width: 0;}
-  to{width: 33.7%;}
+  to{width: 40%;}
 }
 
 /* cursor animations */

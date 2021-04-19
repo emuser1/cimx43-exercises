@@ -296,7 +296,7 @@ background: linear-gradient(to bottom, #E4E5E6, #00416A);
 }
  @keyframes animated-text{
   from{width: 0;}
-  to{width: 40%;}
+  to{width: 35%;}
 }
 
 /* cursor animations */

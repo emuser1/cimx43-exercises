@@ -1,0 +1,21 @@
+What were you trying to accomplish? What was the tutorial or inspiration you tried to work with?
+    I wanted to make a cute scrollytelling website with css animations (It's not so scrollytelling though)! Here's all the links/tutorials I used:
+    -- https://css-tricks.com/snippets/css/typewriter-effect/
+    -- https://www.codingsnow.com/2021/01/falling-stars-css-animation-only-using.html
+    -- https://codepen.io/alphardex/pen/dyPorwJ
+    -- https://codepen.io/codeconvey/pen/xRzQay
+    -- https://codepen.io/jh3y/pen/WyNdMG
+    -- https://codepad.co/snippet/css-sunrise-sunset
+    -- https://codepen.io/mark_sottek/pen/WrNqJV
+    -- https://css-tricks.com/design-considerations-text-images/ (for the full-size bg images)
+    -- https://codepen.io/z-/pen/bpxgWZ
+    -- http://scrollmagic.io/examples/basic/section_wipes_natural.html (literally used it word for word)
+
+What was the most frustrating part of working on this exercise? The most rewarding?
+    These CSS animations: the sunrise, the rain, and the snow were so frustrating. For the sunrise, I had to do most of it through trial and error and sync the sky with the sun. For the rain and snow, I had issues constraining them to their own sections, but somehow all my problems are due to the position. If something breaks, the solution is always fixing the position for whatever reason. Trying to use the Waypoints library was also very annoying. In the end, I couldn't figure out how to define the offset or adapter so I just switched to using Scrollmagic. The most rewarding part is probably the sunrise (it doesn't look too bad for all I did) and the universe section (it's just the prettiest). I also made some of my own art like the text messages, rainbow, and heart backgrounds. I'm really excited to have learned and understood how css animations and Scrollmagic js work.
+
+Would you do this exercise again?
+    Probably, it was fun and I kinda like looking at what I made. It was also a good way to learn about so many things I wouldn't have otherwise: animation, keyframes, backgrounds, gradients, js, etc. 
+
+What would you change if you had another week?
+    I would change the scrolling. I wish it smoothly snapped to each section as I scroll. I also feel like some of the sections are so random, so maybe some more cohesiveness between everything.

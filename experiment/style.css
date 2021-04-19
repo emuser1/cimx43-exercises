@@ -59,9 +59,9 @@ section {
 
 
 .rain{
-background: #00416A; 
-background: -webkit-linear-gradient(to bottom, #E4E5E6, #00416A); 
-background: linear-gradient(to bottom, #E4E5E6, #00416A);
+  background: #00416A; 
+  background: -webkit-linear-gradient(to bottom, #E4E5E6, #00416A); 
+  background: linear-gradient(to bottom, #E4E5E6, #00416A);
 
 }
 

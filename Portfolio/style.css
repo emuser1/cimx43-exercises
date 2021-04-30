@@ -1,0 +1,137 @@
+@import url("https://use.typekit.net/hod3jva.css");
+
+html{
+    scroll-behavior: smooth; 
+    border: solid;
+    border-width: 18px;
+    border-color: #ccccff;
+}
+
+body{
+    background-color: #f8f8ff;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 65%;
+    margin: 0 auto;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #f8f8ff;
+}
+
+header img{
+    width: 45px;
+}
+
+main{
+    margin-top: 100px;
+}
+
+h1{
+    font-family: ivypresto-display,serif;
+    font-weight: 600;
+    font-size: 40px;
+} 
+
+h2, h3{
+    font-family: ivypresto-display,serif;
+    font-weight: 600;
+}
+
+footer img{
+    width: 30px;
+    position: relative;
+    left: 90%;
+}
+
+.menuContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 50px;
+}
+  
+.menu {
+    position: relative;
+    top: 30px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.menu a {
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #222222;
+    letter-spacing: 2px;
+}
+  
+.menu a:hover {
+    color: #a8a8ff;
+}
+
+.logoGrid{
+    position: relative;
+    top: 30px;
+    display: grid;
+    grid-template-columns: .35fr 1fr;
+}
+
+.intro{
+   display: grid;
+   grid-template-columns: 1.5fr .75fr;
+   font-size: 20px;
+   margin-bottom: 100px;
+}
+
+.workGrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.minigrid1{
+    display: grid;
+    grid-template-columns: 1fr .75fr;
+    margin-bottom: 40px;
+}
+
+.minigrid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40px;
+}
+
+.minigrid3{
+    display: grid;
+    grid-template-columns: 1fr .75fr;
+    margin-bottom: 40px;
+}
+
+.footerGrid{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+#eD{
+    position: relative;
+    top: -30px;
+    font-family: ivypresto-display,serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#title{
+    position: relative;
+    top: -75px;
+}
+

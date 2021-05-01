@@ -148,6 +148,10 @@ footer img{
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
+.workGrid img{
+    width: 525px;
+}
+
 .workGrid img:hover{
     width: 550px;
     box-shadow: 1px 1px 10px #cacace;

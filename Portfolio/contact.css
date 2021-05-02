@@ -1,5 +1,19 @@
-#fcf-form {
-    display:block;
+input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+    width: 100%;
+}
+
+select.fcf-form-control[size], select.fcf-form-control[multiple] {
+    height: auto;
+}
+
+textarea.fcf-form-control {
+    font-family: sofia-pro, sans-serif;
+    height: auto;
+}
+
+label.fcf-label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
 }
 
 .fcf-body {
@@ -13,7 +27,6 @@
 .fcf-form-group {
     margin-bottom: 20px;
 }
-
 
 .fcf-form-control {
     display: block;
@@ -36,19 +49,7 @@
     border: 1px solid #313131;
 }
 
-select.fcf-form-control[size], select.fcf-form-control[multiple] {
-    height: auto;
-}
 
-textarea.fcf-form-control {
-    font-family: sofia-pro, sans-serif;
-    height: auto;
-}
-
-label.fcf-label {
-    display: inline-block;
-    margin-bottom: 0.5rem;
-} */
 
 .fcf-credit {
     padding-top: 10px;
@@ -145,6 +146,8 @@ label.fcf-label {
     margin-top: 0.5rem;
 }
 
-input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
-    width: 100%;
+
+
+#fcf-form {
+    display:block;
 }

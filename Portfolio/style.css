@@ -100,7 +100,7 @@ footer img{
 }
   
 .menu a:hover {
-    color: #a8a8ff;
+    color: #72C072;
 }
 
 .logoGrid{
@@ -144,6 +144,12 @@ footer img{
   animation:  button 5s linear infinite;
 }
 
+.intro a:active{
+    color: #fff;
+    background-color: #CCE8CC;
+    border-color: #CCE8CC;
+}
+
 .workGrid{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -165,7 +171,7 @@ footer img{
 }
 
 .workGrid a:hover{
-    color: #a8a8ff;
+    color: #72C072;
 }
 
 .minigrid1{
@@ -195,6 +201,12 @@ footer img{
 .icons{
     position: relative;
     right: 75%;
+}
+
+.pBigger{
+    font-size: 20px;
+    margin-top: -20px;
+    margin-bottom: 100px;
 }
 
 #eD{

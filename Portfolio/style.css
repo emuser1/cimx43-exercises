@@ -71,6 +71,66 @@ footer img{
     left: 90%;
 }
 
+input,
+textarea {
+    border: solid;
+    border-width: 2px;
+    border-color: #CCE8CC;
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+form{
+    margin: 0 auto;
+    width: 70%;
+    padding: 70px; 
+}
+
+form p{
+    margin-bottom: 10%;
+}
+
+button{
+    width: 25%;
+    font-family: sofia-pro, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 7px 35px;
+    text-decoration: none;
+    color: #222222;
+    border: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color:#CCE8CC;
+    background-color: #FFFAFA;
+}
+
+button:hover{
+    background-image: linear-gradient(
+    145deg,
+    transparent 10%,
+    #72C072 10% 20%,
+    transparent 20% 30%,
+    #72C072 30% 40%,
+    transparent 40% 50%,
+    #72C072 50% 60%,
+    transparent 60% 70%,
+    #72C072 70% 80%,
+    transparent 80% 90%,
+    #72C072 90% 100%
+  );
+  animation:  button 5s linear infinite;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
 .menuContainer {
     display: flex;
     flex-direction: row;
@@ -118,7 +178,7 @@ footer img{
    margin-top: 100px;
 }
 
-.intro a{
+.intro a, .aboutGrid a{
     text-decoration: none;
     color: #222222;
     border: solid;
@@ -127,7 +187,7 @@ footer img{
     border-color:#CCE8CC;
 }
 
-.intro a:hover{
+.intro a:hover, .aboutGrid a:hover{
     background-image: linear-gradient(
     145deg,
     transparent 10%,
@@ -152,7 +212,7 @@ footer img{
 
 .workGrid{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr .25fr;
 }
 
 .workGrid img{
@@ -161,7 +221,6 @@ footer img{
 
 .workGrid img:hover{
     width: 550px;
-    box-shadow: 1px 1px 10px #cacace;
     transition: width 1s, height 1s;
 }
 
@@ -177,13 +236,17 @@ footer img{
 .minigrid1{
     display: grid;
     grid-template-columns: 1fr .75fr;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
 .minigrid2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
+}
+
+.minigrid2 p{
+    margin-right: 20px;
 }
 
 .minigrid3{
@@ -209,6 +272,18 @@ footer img{
     margin-bottom: 100px;
 }
 
+.hideme
+{
+    opacity:0;
+}
+
+.aboutGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10%;
+    margin-top: 12%;
+}
+
 #eD{
     position: relative;
     top: -30px;
@@ -220,6 +295,10 @@ footer img{
 #title{
     position: relative;
     top: -75px;
+}
+
+#selfie img{
+    width: 70%;
 }
 
 @keyframes button {

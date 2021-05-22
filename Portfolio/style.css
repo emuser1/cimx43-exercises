@@ -126,6 +126,12 @@ button:hover{
   animation:  button 5s linear infinite;
 }
 
+button:active{
+    color: #fff;
+    background-color: #CCE8CC;
+    border-color: #CCE8CC
+}
+
 .name {
     display: flex;
     justify-content: space-between;
@@ -160,6 +166,10 @@ button:hover{
 }
   
 .menu a:hover {
+    color: #72C072;
+}
+
+#active{
     color: #72C072;
 }
 
@@ -282,6 +292,12 @@ button:hover{
     grid-template-columns: 1fr 1fr;
     margin-bottom: 10%;
     margin-top: 12%;
+}
+
+.aboutGrid a:active{
+    color: #fff;
+    background-color: #CCE8CC;
+    border-color: #CCE8CC
 }
 
 #eD{
